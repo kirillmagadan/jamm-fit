@@ -1,0 +1,479 @@
+@media screen and (max-width: 1050px) {
+    .main_wrap{
+        background: none;
+    }
+
+    header{
+        max-width: 100%;
+        padding:0 2% ;
+    }
+
+    .content_wrapper{
+        box-sizing: border-box;
+        padding:0 2%;
+    }
+
+    .header_logo {
+        margin-right: 10px;
+    }
+
+    .header_left p{
+        font-size: 18px;
+    }
+
+    .callback_box {
+        margin-right: 10px;
+    }
+
+    .soc_btn_header a {
+        margin-right: 7px;
+    }
+
+    .nav_header_wrap nav {
+        height: auto;
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: -349px;
+        display: none;
+    }
+
+    .footer_nav nav {
+        height: auto;
+        max-width: 100%;
+        position: absolute;
+        left: 0;
+        bottom: 47px;
+        display: none;
+    }
+
+    .nav_header_wrap {
+        bottom: -47px;
+        height: 47px;
+    }
+
+    .nav_header_wrap nav ul li{
+        display:block;
+        margin-right: 0;
+        width: 100%;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .nav_header_wrap nav ul li:last-child{
+        border-bottom: none;
+    }
+
+    .nav_header_wrap nav ul li a{
+        color: #ffffff;
+        display: block;
+        font-size: 16px;
+        text-transform: none;
+        padding: 13px 30px;
+        box-sizing: border-box;
+        background: #dd2f31;
+        font-family: 'Open Sans', sans-serif;
+    }
+
+    .nav_header_wrap nav ul li a:hover{
+        color: #ffffff;
+        opacity: 0.9;
+        transition: 2000ms;
+        -webkit-transition:2000ms;
+    }
+
+    .slider_text {
+        padding-top: 99px;
+        width: 100%;
+        max-width: 665px;
+    }
+
+    .slider_text span{
+        font-size: 46px;
+        margin-bottom: 32px;
+    }
+
+    .header--slider {
+        height: 595px;
+    }
+
+    .header--slider ul li {
+       background-size: cover;
+       background-position: 70% 50%;
+    }
+
+    .sm_nav {
+        bottom: 133px;
+    }
+
+    .burger{
+        display: inline-block;
+    }
+
+    .advantages {
+        max-width: 667px;
+        top: -89px;
+        width: 100%;
+    }
+
+    .about_trainings {
+        margin: -60px auto 112px;
+    }
+
+    .about_trainings p {
+        display:block;
+        float: none;
+        width: 100%;
+    }
+
+    .about_trainings img {
+        display: none;
+    }
+
+
+    .request_form {
+        padding: 55px 0;
+    }
+
+    .img_780{
+        display: inline-block;
+        float: left;
+        margin-right: 0;
+        vertical-align: middle;
+    }
+
+    .misconception_img{
+        display: none;
+    }
+
+
+    .misconception p {
+        float: right;
+        padding-top: 23px;
+        width: 62%;
+    }
+
+    .last_news_text {
+        display: inline-block;
+        float: right;
+        vertical-align: middle;
+        width: 45%;
+    }
+
+    .footer_box {
+        padding: 30px 2%;
+    }
+
+    .footer_left {
+        float: left;
+        margin-right: 8%;
+    }
+
+    .footer_right {
+        width: auto;
+        float: right;
+    }
+
+    .footer_right_item a{
+        display: none;
+    }
+
+    .footer_right_item>a:first-child{
+        display: inline-block;
+        margin-right: 0;
+    }
+
+    .footer_center {
+        display: inline-block;
+        margin-right:0;
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 795px) {
+    .reviews ul li img {
+        width: 110px;
+    }
+
+    .reviews_right {
+        display: inline-block;
+        vertical-align: middle;
+        width: 75%;
+    }
+
+    .footer_left {
+        margin-right: 4%;
+    }
+}
+
+@media screen and (max-width: 788px){
+    .header_logo img{
+        width: 107px;
+        height: 42px;
+    }
+
+    .header_logo {
+        margin-top: 5px;
+        margin-right: 8px;
+    }
+
+    header {
+        padding: 13px 2%;
+    }
+
+
+    .header_left p {
+        display: none;
+    }
+
+    .callback_box {
+        margin-top:0;
+    }
+
+    .header_right .soc_btn_header a{
+        vertical-align: sub;
+    }
+
+    .slider_text {
+        max-width: 94%;
+        padding-top: 80px;
+    }
+
+    .slider_text span{
+        font-size: 31px;
+        margin-bottom: 40px;
+        line-height: 1.2;
+    }
+
+
+    .slider_text p {
+        margin-bottom: 30px;
+    }
+
+    .header--slider {
+        height: 462px;
+    }
+
+    .sm_slider-inner{
+        height:462px;
+    }
+
+    .sm_nav {
+        bottom: 90px;
+    }
+
+    .advantages {
+        max-width: 460px;
+        top: -50px;
+    }
+
+    .advantages a {
+        max-width: 230px;
+        max-height: 124px;
+        background-position: 50% 50%;
+        background-size: cover;
+    }
+
+    .advantages a span {
+        font-size: 22px;
+        left: 8%;
+    }
+
+    .about_trainings {
+        margin: -7px auto 112px;
+    }
+
+    .model{
+        display:none;
+    }
+
+    .request_wrap{
+        height: auto;
+    }
+
+    .request_form {
+        float: none;
+        margin: auto;
+        max-width: 332px;
+        padding-top: 36px;
+        width: 100%;
+    }
+
+    .request_form input[type="text"] {
+        width: 100%;
+    }
+
+    .request_form input[type="submit"] {
+        width: 100%;
+    }
+
+    .reviews ul li img {
+        display: none;
+    }
+
+    .reviews_right {
+        display: block;
+        margin: auto;
+        width: 88%;
+    }
+
+    .reviews_right p {
+        font-size: 12px;
+        text-align: justify;
+    }
+
+    .img_780 {
+        display: none;
+    }
+
+    .misconception_img {
+        display: block;
+        width: 100%;
+        float: none;
+        margin-bottom: 20px;
+    }
+
+    .misconception p {
+        float:none;
+        padding-top: 0;
+        width: 100%;
+    }
+    .reviews > .slider_wrap {
+        height: auto !important;
+    }
+
+    .last_news_img {
+         display: block;
+         margin-right: 0;
+         position: relative;
+        margin-bottom: 15px;
+     }
+
+    .last_news_img img{
+        display: block;
+        width: 100%;
+    }
+
+    .last_news_text {
+        display: inline-block;
+        float: none;
+        width: 100%;
+    }
+
+    .last_news_text span {
+        margin-bottom: 15px;
+    }
+
+
+    .last_news_text p {
+        margin-bottom: 15px;
+    }
+
+    .learn {
+        padding: 25px 2%;
+    }
+
+    .learn form {
+        max-width: 350px;
+        width: 100%;
+    }
+
+
+    .learn form input[type="text"] {
+        display:block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+
+    .learn form input[type="submit"] {
+        display:block;
+        width: 100%;
+    }
+
+    .footer_right_item>a:first-child{
+        margin-right: 20px;
+    }
+
+    .footer_right_item>a:last-child{
+        display: inline-block;
+    }
+
+    .footer_center{
+        display: none;
+    }
+
+    .price_item {
+        margin: auto;
+        max-width: 420px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .price_item a {
+        font-size: 10px;
+       font-weight: 800;
+        padding: 12px 91px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .soc_btn_header {
+        display: none;
+    }
+
+    .callback_box {
+        margin-right: 0;
+        width: 140px;
+    }
+
+    .callback_box p {
+        font-size: 18px;
+        margin-bottom: 5px;
+    }
+
+    .slider_text {
+        padding-top: 121px;
+    }
+
+    .slider_text span {
+        font-size: 24px;
+        margin-bottom: 19px;
+    }
+
+    .slider_text p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .slider_btn {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+
+    .advantages {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .advantages a{
+        max-width: 90%;
+        max-height: 124px;
+        background-position: 50% 50%;
+        background-size: cover;
+        margin: auto;
+    }
+
+    .footer_right {
+        display: none;
+        float: right;
+        width: auto;
+    }
+
+    .footer_left {
+        display: block;
+        float: none;
+        margin: auto;
+        width: 187px;
+
+    }
+}

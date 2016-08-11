@@ -1,0 +1,150 @@
+.sm_slider {
+  height: 270px;
+  margin: 25px 25px 0px;
+  position: relative;
+  width: 960px;
+}
+.sm_slider ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.sm_slide {
+  color: #3d3d3d;
+  display: none;
+  font-size: 100px;
+  height: 270px;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  visibility: hidden;
+  width: 100%;
+}
+
+
+.reviews_item.sm_slide {
+  display: block;
+  margin: auto;
+  position: relative;
+  text-align: left;
+  width: 90%;
+}
+
+.sm_slide.active {
+  display: block;
+  visibility: visible;
+}
+.sm_slide img {
+  max-width: 100%;
+}
+
+
+.sm_prev,
+.sm_next {
+  width: 25px;
+  height: 25px;
+  margin: -20px 0 0 0;
+  cursor: pointer;
+  display: none;
+  font-style: normal;
+  opacity: .3;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  border-style: solid;
+  border-color: #4e4e4e;
+  border-width: 0px;
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+
+.reviews .sm_prev {
+  border-left-width: 3px;
+  border-top-width: 3px;
+  left: 10px;
+  display: block;
+}
+.sm_prev:hover {
+  opacity: 1;
+}
+
+.reviews .sm_next {
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  right: 10px;
+  display: block;
+}
+.sm_next:hover {
+  opacity: 1;
+}
+
+.reviews .sm_nav{
+  display: none;
+}
+
+.sm_nav {
+  bottom: 126px;
+  clear: both;
+  display: inline-block;
+  margin-right: -35px;
+  overflow: hidden;
+  padding: 5px 0;
+  position: absolute;
+  right: 50%;
+  width: 77px;
+  z-index: 999;
+}
+
+.sm_nav-item {
+  cursor: pointer;
+  float: left;
+  height: 15px !important;
+  margin-right: 15px;
+  width: 14px;
+  z-index: 999;
+  list-style-type: none;
+  font-size: 11px;
+  color: #ccc;
+}
+
+.sm_nav-item:last-child {
+  margin-right: 0;
+}
+
+.sm_nav-item i {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 5px;
+  left: 4px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  background-color: #ffffff;
+}
+.sm_nav-item.active {
+  cursor: default;
+  color: #7e7e7e;
+}
+.sm_nav-item.active:hover {
+  cursor: default;
+  color: #7e7e7e;
+}
+.sm_nav-item.active i {
+  background-color: #e2292c;
+}
+.sm_nav-item:hover i {
+  background: #7f7f7f;
+}
+.sm_nav-item.active:hover i {
+  background-color: #bfbfbf;
+}

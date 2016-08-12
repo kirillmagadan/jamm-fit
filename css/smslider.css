@@ -40,51 +40,73 @@
   max-width: 100%;
 }
 
+.advantages_slider .sm_prev{
+  width: 25px;
+  height: 44px;
+  margin: -20px 0 0 0;
+  cursor: pointer;
+  display: block;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  z-index: 999;
+  background:url("../img/arrow_white_left.png") ;
+}
+
+.advantages_slider .sm_next{
+  width: 25px;
+  height: 44px;
+  margin: -20px 0 0 0;
+  cursor: pointer;
+  display: block;
+  font-style: normal;
+  position: absolute;
+  top: 50%;
+  right: 20%;
+  z-index: 999;
+  background:url("../img/arrow_white_rigth.png") ;
+}
 
 .sm_prev,
 .sm_next {
-  width: 25px;
-  height: 25px;
   margin: -20px 0 0 0;
   cursor: pointer;
   display: none;
   font-style: normal;
-  opacity: .3;
   position: absolute;
   top: 50%;
   z-index: 999;
-  border-style: solid;
-  border-color: #4e4e4e;
-  border-width: 0px;
-  -webkit-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  transform: rotate(-45deg);
 }
 
 
 .reviews .sm_prev {
-  border-left-width: 3px;
-  border-top-width: 3px;
+  width: 23px;
+  height: 41px;
   left: 10px;
   display: block;
+  background: url("../img/arrow_left.png");
 }
 .sm_prev:hover {
   opacity: 1;
 }
 
 .reviews .sm_next {
-  border-right-width: 3px;
-  border-bottom-width: 3px;
+  width: 23px;
+  height: 41px;
   right: 10px;
   display: block;
+  background: url("../img/arrow_rigth.png");
 }
 .sm_next:hover {
   opacity: 1;
 }
 
 .reviews .sm_nav{
+  display: none;
+}
+
+.advantages_slider .sm_nav{
   display: none;
 }
 

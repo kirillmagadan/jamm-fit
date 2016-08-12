@@ -187,6 +187,96 @@
         margin-right:0;
         width: 380px;
     }
+
+    .breadcrumbs{
+        font-size: 16px;
+    }
+
+    .breadcrumbs a{
+        font-size: 16px;
+    }
+
+    .breadcrumbs p{
+        font-size: 16px;
+    }
+
+    .breadcrumbs span{
+        font-size: 16px;
+    }
+
+
+    .advantages_slider .sm_next {
+         right: 2%;
+     }
+
+    .advantages_slider .sm_prev {
+        left: 2%;
+    }
+
+    .advantages_slider {
+        height: 280px;
+    }
+
+    .advantages_slider ul li {
+        height: 280px;
+    }
+
+    .results_box {
+        max-width: 667px;
+    }
+
+
+    .process {
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow:row wrap;
+        -webkit-justify-content:space-around;
+        justify-content: space-around;
+    }
+
+    .process_left {
+        margin-right: 0;
+    }
+
+    .process_center{
+        margin-right: 0;
+    }
+
+    .process_center::before {
+      display: none;
+    }
+    .process_center::after {
+        display: none;
+    }
+
+    .process_right{
+        padding-top: 50px;
+    }
+
+    .trainer {
+        padding: 0 2%;
+    }
+
+    .trainer_left {
+        height: 406px;
+        width: 245px;
+    }
+
+    .trainer_left::before {
+        background:url("../img/tren.png");
+        bottom: 0;
+        content: "";
+        height: 399px;
+        left: 0;
+        position: absolute;
+        width: 245px;
+    }
+
+    .trainer_right {
+        padding-top: 13px;
+        width: 62%;
+    }
 }
 
 @media screen and (max-width: 795px) {
@@ -474,6 +564,5 @@
         float: none;
         margin: auto;
         width: 187px;
-
     }
 }

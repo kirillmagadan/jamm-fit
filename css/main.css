@@ -909,6 +909,7 @@ header{
     margin-right: 67px;
     vertical-align: middle;
     position: relative;
+    box-sizing: border-box;
 }
 
 .process_center img{

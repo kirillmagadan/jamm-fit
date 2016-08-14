@@ -68,6 +68,14 @@
   background:url("../img/arrow_white_rigth.png") ;
 }
 
+.studio_slider .sm_prev{
+  left: 1%;
+}
+
+.studio_slider .sm_next{
+  right: 1%;
+}
+
 .sm_prev,
 .sm_next {
   margin: -20px 0 0 0;

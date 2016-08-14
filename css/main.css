@@ -102,7 +102,20 @@ h3:before{
 h4{
     font-size: 20px;
     color: #000;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
+    position: relative;
+    display: inline-block;
+}
+
+h4:before{
+    content: "";
+    position: absolute;
+    display: block;
+    height: 1px;
+    background: #a0a0a0;
+    bottom: -12px;
+    left: 0;
+    width: 100%;
 }
 
 .main_wrap{
@@ -616,6 +629,7 @@ header{
     position:relative ;
     vertical-align: top;
     margin-right: 15px;
+
 }
 
 .last_news_img p{
@@ -1116,6 +1130,190 @@ header{
     opacity: 0.6;
     transition: 2000ms;
     -webkit-transition:2000ms;
+}
+
+.studio_filter{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto 50px;
+    background: url("../img/studio.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+    box-sizing: border-box;
+    padding: 14px 30px;
+}
+
+.studio_filter p{
+    font-size: 16px;
+    display: inline-block;
+    color: #ffffff;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+
+.studio_filter form{
+    display: inline-block;
+}
+
+.studio_filter form select{
+    display: inline-block;
+    margin-right: 17px;
+    width: 333px;
+    box-sizing: border-box;
+    padding:10px;
+    font-size: 14px;
+    background-image: url("../img/select_arrow.png");
+    background-position:97% center;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -ms-appearance: none;
+    appearance: none!important;
+    border: 1px solid #dadada;
+    box-shadow: 0 2px 3px 1px #dadada inset;
+}
+
+.studio_filter form input[type="submit"].red_btn_big{
+    display: inline-block;
+    border: none;
+    width: 234px;
+    padding: 10px 0;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.studio_jam_fit{
+    margin: 0 auto 36px;
+    box-sizing: border-box;
+}
+
+.studio_jam_fit p{
+    margin-bottom: 35px;
+    line-height: 1.2;
+    text-align: justify;
+}
+
+.studio_slider{
+    height: 360px;
+    margin-bottom: 0;
+}
+
+
+.studio_slider ul li{
+    height: 360px;
+}
+
+.staff{
+    margin: 0 auto 90px;
+}
+
+.staff_item{
+    display: inline-block;
+    margin-right: 44px;
+    width: 210px;
+}
+
+.staff_item:last-child{
+    margin-right: 0;
+}
+
+.staff_item img{
+    display: block;
+    margin:0 auto 20px;
+}
+
+.staff_item span{
+    display: block;
+    margin-bottom: 13px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Open Sans", sans-serif;
+}
+
+.staff_item p{
+    display: block;
+    margin-bottom: 0;
+    font-size: 16px;
+    text-align: center;
+}
+
+.contact_and_price{
+    margin: 0 auto 45px;
+}
+
+.contact_box{
+    display: inline-block;
+    margin-right: 50px;
+    width: 47%;
+}
+
+.contact_box p{
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.contact_tel{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.contact_tel+p {
+    font-size: 16px;
+}
+
+.contact_soc_btn p{
+    margin-bottom: 14px;
+    font-size: 16px;
+}
+
+.contact_soc_btn a{
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.contact_soc_btn a:last-child{
+    margin-right: 0;
+}
+
+.price_box{
+    width: 43%;
+    display: inline-block;
+}
+
+.price_img_box{
+    width: 100%;
+    margin: auto;
+}
+
+.price_img_item{
+    display: inline-block;
+    width: 197px;
+    margin-right: 20px;
+}
+
+.price_img_item:last-child{
+    margin-right: 0;
+}
+
+.price_img_item a{
+    display: block;
+    text-align: right;
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.price_img_item a:last-child{
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
+.staff_item_wrap{
+    display:block;
+    margin: auto;
 }
 
 footer{

@@ -292,6 +292,48 @@
         margin-bottom: 0;
         padding-top: 192px;
     }
+
+
+    .studio_filter p {
+        font-size: 14px;
+    }
+
+
+    .studio_filter {
+        padding: 14px 2%;
+    }
+
+    .studio_slider {
+        height: 320px;
+    }
+
+    .studio_slider ul li {
+        height: 320px;
+    }
+
+    .staff_item:last-child {
+        display: none;
+    }
+
+    .staff_item:nth-last-child(2){
+        margin-right: 0;
+    }
+
+    .staff_item_wrap{
+        max-width: 730px;
+    }
+
+    .contact_box {
+        display: block;
+        margin-right: 0;
+        max-width: 470px;
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .price_box {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 795px) {
@@ -308,6 +350,8 @@
     .footer_left {
         margin-right: 4%;
     }
+
+
 }
 
 @media screen and (max-width: 788px){
@@ -555,6 +599,74 @@
         color: #ffffff;
         margin-bottom: 40px;
     }
+
+    .studio_filter {
+        padding: 20px 2%;
+    }
+
+    .studio_filter p {
+        display: block;
+        font-size: 16px;
+        margin-bottom: 20px;
+        margin-right: 0;
+        text-align: center;
+    }
+
+    .studio_filter form{
+        margin: auto;
+        width: 100%;
+        max-width: 340px;
+        display: block;
+    }
+
+    .studio_filter form select {
+        display: block;
+        margin: 0 auto 20px;
+        width: 100%;
+    }
+
+    .studio_filter form input.red_btn_big[type="submit"] {
+        display: block;
+        padding: 10px 0;
+        width: 100%;
+    }
+
+    .studio_slider {
+        height: 240px;
+    }
+
+    .studio_slider ul li{
+        height: 240px;
+    }
+
+    .staff {
+        margin: 0 auto 75px;
+    }
+
+    .staff_item_wrap{
+        display: flex;
+        display: -webkit-flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow:row wrap;
+        margin: auto;
+        justify-content: space-between;
+    }
+
+    .staff_item{
+        padding-bottom: 13px;
+    }
+
+    .staff_item:last-child {
+        display: block;
+    }
+
+    .staff_item:nth-last-child(2){
+        margin-right: 0;
+    }
+
+    .staff_item{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 500px){
@@ -641,5 +753,19 @@
 
     .trainer_list:last-child {
         margin-bottom: 0;
+    }
+
+    .staff_item_wrap {
+        max-width: 210px;
+    }
+
+    .price_img_item {
+       display: block;
+        margin:0 auto 20px;
+
+    }
+
+    .price_img_item:last-child {
+        margin: auto;
     }
 }

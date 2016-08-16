@@ -9,6 +9,7 @@
     <link rel='stylesheet' href='css/smslider.css' type='text/css'>
     <link rel='stylesheet' href='css/main.css' type='text/css'>
     <link rel='stylesheet' href='css/media.css' type='text/css'>
+    <link rel='stylesheet' href='css/jquery.fancybox.css' type='text/css'>
     <!--[if !IE]><!-->
     <script>if(/*@cc_on!@*/false){document.documentElement.className+=' ie10';}</script>
     <!--<![endif]-->
@@ -22,6 +23,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,700,700italic,400italic,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>    <script src="js/jquery.js"></script>
     <script type='text/javascript' src='js/owl.carousel.min.js'></script>
     <script type='text/javascript' src='js/jquery.smslider.min.js'></script>
+    <script type='text/javascript' src='js/jquery.fancybox.pack.js'></script>
     <script type='text/javascript' src='js/main.js'></script>
 </head>
 <body>
@@ -50,6 +52,7 @@
          </div>
             <div class="clear"></div>
         </header>
+
         <div class="nav_header_wrap">
                 <a class="burger" href="#" title="">
                     Меню
@@ -105,7 +108,7 @@
                     <p>
                         Результат не заставит ждать!
                     </p>
-                    <a href="#" title="" class="slider_btn">Тренировка будущего уже сейчас</a>
+                    <a href="#pop_up" title="" class="slider_btn fancy">Тренировка будущего уже сейчас</a>
                 </div>
             </li>
             <li style="background-image: url(img/slider1.png);background-size: cover">
@@ -116,7 +119,7 @@
                     <p>
                         Результат не заставит ждать!
                     </p>
-                    <a href="#" title="" class="slider_btn">Тренировка будущего уже сейчас</a>
+                    <a href="#pop_up" title="" class="slider_btn fancy">Тренировка будущего уже сейчас</a>
                 </div>
             </li>
             <li style="background-image: url(img/slider1.png);background-size: cover">
@@ -127,7 +130,7 @@
                     <p>
                         Результат не заставит ждать!
                     </p>
-                    <a href="#" title="" class="slider_btn">Тренировка будущего уже сейчас</a>
+                    <a href="#pop_up" title="" class="slider_btn fancy">Тренировка будущего уже сейчас</a>
                 </div>
             </li>
         </ul>
@@ -376,6 +379,16 @@
               <div class="clear"></div>
           </div>
         </footer>
+    <div id="pop_up" style="display: none">
+        <div class="pop_up">
+            <span>Обратный звонок</span>
+            <form>
+                <input type="text" name="" placeholder="Ваше имя">
+                <input type="text" name="" placeholder="Ваш контактный телефон">
+                <input type="submit" name="" value="Отправить">
+            </form>
+        </div>
+    </div>
 </div>
 </body>
 </html>

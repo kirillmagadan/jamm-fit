@@ -97,13 +97,13 @@
 }
 
 .fancybox-close {
-	background: rgba(0, 0, 0, 0) url("../img/fancy/X.png") no-repeat scroll -3px -3px;
+	background: rgba(0, 0, 0, 0) url("../img/krest.png");
 	cursor: pointer;
-	height: 32px;
+	width: 29px;
+	height: 30px;
 	position: absolute;
-	right: -60px;
-	top: -10px;
-	width: 32px;
+	right: 24px;
+	top: 18px;
 	z-index: 8040;
 }
 

@@ -34,6 +34,7 @@ $(document).ready(function(){
     $(document).ready(function() {
         $(".fancy").fancybox();
     });
+
 });
 
 
